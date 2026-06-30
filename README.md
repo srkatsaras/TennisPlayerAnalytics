@@ -15,4 +15,9 @@ $ docker build --tag project .
 $ docker run -d -p 5000:5000 project
 ```
 ## Overview
-The project 
+The project utilizes three neural network models:
+
+1.  __A YOLOv8X model:__ pretrained, for identifying objects/people in each frame.
+2.  __A ResNet50 model with a custom fully connected layer (2x14):__ for identifying 14 positions of the tennis court. Identifying these points allows for distance estimation.
+3.  __A YOLOv5l model:__ trained on many tennis ball annotations, for identifying the tennis ball on the court.
+
