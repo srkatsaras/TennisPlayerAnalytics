@@ -24,4 +24,9 @@ The project utilizes three neural network models:
 ### Features
 
 1.  _Player and ball velocities and average velocities:_ using pixel--to--distance estimations, infer the distance covered by each player and the ball during each interval of sequential ball hits. The velocity can be easily found by also obtaining the duration (in frames) between sequential ball hits, and by utilizing the number of fps.
+
+  Ball y positions:
+   
+  <img src="https://github.com/srkatsaras/TennisPlayerAnalytics/blob/main/ball_y_pos.jpg" data-canonical-src="https://github.com/srkatsaras/TennisPlayerAnalytics/blob/main/ball_y_pos.jpg" width="40%" />
+   
 2.  
