@@ -21,3 +21,7 @@ The project utilizes three neural network models:
 2.  __A ResNet50 model with a custom fully connected layer (2x14):__ for identifying 14 positions of the tennis court. Identifying these points allows for distance estimation.
 3.  __A YOLOv5l model:__ trained on many tennis ball annotations, for identifying the tennis ball on the court.
 
+### Features
+
+1.  _Player and ball velocities and average velocities:_ using pixel--to--distance estimations, infer the distance covered by each player and the ball during each interval of sequential ball hits. The velocity can be easily found by also obtaining the duration (in frames) between sequential ball hits, and by utilizing the number of fps.
+2.  
