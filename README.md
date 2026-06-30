@@ -36,5 +36,5 @@ The project utilizes three neural network models:
 
 ## Future work
 1.  __Real--time processing:__ The ball hit recognition (and subsequently the player and ball velocities) can be re--implemented for real time video streams. In this context, latent performance is also a crucial factor here: each frame must be processed quick enough to avoid delays. This can be done through the following adjustments:
-   i.  employ faster YOLO models, specifically for identifying the players. YOLOv8n can be a good alternative, given that identifying individuals on the frames is not prone to errors (in contrast to identifying ball positions, where a larger model might be necessary given the misclassifications in the YOLOv5l model.)
-  ii.  perform processing every 10 frames instead of processing each frame.
+   -  employ faster YOLO models, specifically for identifying the players. YOLOv8n can be a good alternative, given that identifying individuals on the frames is not prone to errors (in contrast to identifying ball positions, where a larger model might be necessary given the misclassifications in the YOLOv5l model.)
+   -  perform processing every 10 frames instead of processing each frame.
